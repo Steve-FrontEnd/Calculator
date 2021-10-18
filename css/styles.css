@@ -1,0 +1,24 @@
+.container-fluid {
+    background-image: url("images\Background image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+}
+
+.img {
+    padding-top: 0px;
+    margin-top: 0;
+}
+img{
+    float: left;
+    border-radius: 100%;
+    ;
+    
+}
+h1{
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee Inline', cursive;
+}
+body {
+    background-image: url("images\Background image.jpg");
+  }
