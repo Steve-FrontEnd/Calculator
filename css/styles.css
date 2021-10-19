@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&family=Ubuntu:wght@300&display=swap');
-/* font-family: 'Lora', serif;
-font-family: 'Ubuntu', sans-serif; */
 
 body{
     width: 90%;
@@ -16,7 +14,7 @@ body{
     content: 'Date is empty or Gender is not picked';
 }
 
-/* Typography */
+
 h1{
     font-weight: 600;
     font-size: 2rem;
@@ -36,7 +34,7 @@ small{
     font-weight: lighter;
 }
 
-/* layout */
+
 header{
     padding: 2em 0;
     background: #f2e9e4;
