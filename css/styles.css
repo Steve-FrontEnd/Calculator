@@ -1,24 +1,63 @@
-.container-fluid {
-    background-image: url("images\Background image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 18px;
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Lora', sans-serif;
+}
+.error::before{
+    background-color: rgba(255, 41, 41, 0.3);
+    font-weight: bold;
+    border: 1px magenta solid;
+    padding: .5em;
+    font-size: .75rem;
+    content: 'Date is empty or Gender is not picked';
 }
 
-.img {
-    padding-top: 0px;
-    margin-top: 0;
-}
-img{
-    float: left;
-    border-radius: 100%;
-    ;
-    
-}
+/* Typography */
 h1{
-    font-family: 'Black Ops One', cursive;
-    font-family: 'Bungee Inline', cursive;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0;
 }
-body {
-    background-image: url("images\Background image.jpg");
-  }
+h2{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1em;
+}
+small{
+    background-color: #4a4e69;
+    padding: 0.5em;
+    color: white;
+}
+#akan{
+    font-weight: lighter;
+}
+
+/* layout */
+header{
+    padding: 2em 0;
+    background: #f2e9e4;
+}
+
+.details{
+    border: 2px #f8f8f8 solid;
+    background: #f2e9e4;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    margin: 2em 0;
+    padding: 2em;
+}
+.result{    
+    display: flex;
+
+}
+.result p:last-child{
+    margin-left:.5em;
+    border-left: 2px #22223b solid;
+    padding: 0.1em;
+    background: white;
+    font-style: italic;
+}
+
