@@ -6,7 +6,7 @@ In Ghanian culture, children's first name represents 'day name' which is equival
 
 ## Technologies Used
 
-- JAvascript, HTML & CSS (Bootstrap)
+- Javascript, HTML & CSS (Bootstrap)
 
 
 ##### Setup Instructions and Installation
