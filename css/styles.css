@@ -43,7 +43,7 @@ header{
 .details{
     border: 2px #f8f8f8 solid;
     background: #f2e9e4;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 3px #add8ad;
     margin: 2em 0;
     padding: 2em;
 }
