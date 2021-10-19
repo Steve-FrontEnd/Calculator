@@ -26,9 +26,9 @@ h2{
     margin: 1em;
 }
 small{
-    background-color: #4a4e69;
+    background-color: burlywood;
     padding: 0.5em;
-    color: white;
+    color: rgb(54, 42, 42);
 }
 #akan{
     font-weight: lighter;
@@ -37,7 +37,7 @@ small{
 
 header{
     padding: 2em 0;
-    background: #f2e9e4;
+    background: #c0c0c0;
 }
 
 .details{
@@ -56,6 +56,6 @@ header{
     border-left: 2px #22223b solid;
     padding: 0.1em;
     background: white;
-    font-style: italic;
+    font-style: arial;
 }
 
