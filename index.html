@@ -3,25 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/styles.css">
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
         <title>Akan Generator</title>
     </head>
     <body>
         <div class="container">
             <header class="row">
-                <h1 class = "mx-auto">Akan Name</h1>
+                <h1 class = "mx-auto">Akan Naming System</h1>
             </header>
             <div class="row background">
-                <h2 class = "mx-auto"></h2>
+                <h2 class = "mx-auto">Background</h2>
                 <p>
-                    Akan Name is a naming format by Ghanians whereby the newborns are named according to their day of birth. They also consider  the order in which they were born in the naming process. A majority of West Africans inherit at least one name from this naming method.
+                    This naming system is practised the by the <strong>Akan</strong> people in Ghana and a few other west african Countries. 
+                    Newborns are given special names depending on the day they are born and the order in which they were born. Most west africans have one name from this naming sysytem.
+                </p>
+                <p>
+                    Aside the fact that day names are a simple means for commonality,They have further meanings concerning the soul and character of the person
                 </p>
             </div>
             <div class="row details"> 
                 <div class="col">
-                    <p><small>Fill out the form to indicate your Akan name</small></p>   
+                    <p><small>Fill out the details below to know your <em><strong>Akan</strong></em> name</small></p>   
 
                     <form id = "akanForm">
                         <div class="form-group row">
@@ -57,10 +60,11 @@
                     </form>
                     <div class="result">
                         <p id = "error"></p>
-                        <p>Your Akan name is: <span id = "akan"></span></p>
+                        <p>Your Akan Name is: <span id = "akan"></span></p>
                     </div>
                 </div>      
             </div>
         </div>
+        <script src="./js/main.js"></script>
     </body>
 </html>
